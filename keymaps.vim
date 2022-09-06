@@ -3,10 +3,10 @@ nnoremap <Left> <NOP>
 nnoremap <Right> <NOP>
 nnoremap <Up> <NOP>
 nnoremap <Down> <NOP>
-inoremap <Left> <NOP>
-inoremap <Right> <NOP>
-inoremap <Up> <NOP>
-inoremap <Down> <NOP>
+" inoremap <Left> <NOP>
+" inoremap <Right> <NOP>
+" inoremap <Up> <NOP>
+" inoremap <Down> <NOP>
 
 " Use Alt + hjkl to resize windows
 nnoremap <silent> <M-j>    :resize +2<CR>
@@ -29,6 +29,5 @@ nnoremap <silent> <S-TAB> :bprevious<CR>
 nnoremap Q <Nop>
 nnoremap gQ <Nop>
 
-" Use tab with text block
-" vmap <Tab> >gv
-" vmap <S-Tab> <gv
+" Goyo keymap
+nnoremap gy :Goyo 100x90%<CR>

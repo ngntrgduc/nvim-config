@@ -7,7 +7,8 @@ Plug 'mhinz/vim-startify'                        " Start-screen
 Plug 'voldikss/vim-floaterm'                     " Floating terminal
 Plug 'tpope/vim-commentary'                      " Better comment code
 Plug 'tpope/vim-fugitive'                        " Git in vim
-Plug 'junegunn/goyo.vim'                         " Focus mode
 Plug 'ctrlpvim/ctrlp.vim'                        " Ctrl + P in Vim 
 Plug 'ryanoasis/vim-devicons'                    " Icon for file
+Plug 'junegunn/goyo.vim'                         " Focus mode
+Plug 'junegunn/limelight.vim'                    " Better focus for goyo.vim plugin
 call plug#end()  

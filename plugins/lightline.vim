@@ -5,7 +5,6 @@ let g:lightline = {
    \ 'colorscheme': 'dracula',
    \ 'active': {
    \   'right': [ [ 'lineinfo' ],
-   \              [ 'percent' ],
    \              [ 'filetype' ] ],
    \   'left': [ [ 'mode', 'paste' ],
    \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
