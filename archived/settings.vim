@@ -1,6 +1,6 @@
 " Theme
 syntax on
-let g:dracula_colorterm = 0
+" let g:dracula_colorterm = 0
 let g:dracula_italic = 0 " Disable italic font
 colorscheme dracula
 

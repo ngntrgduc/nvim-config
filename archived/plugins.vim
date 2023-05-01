@@ -1,7 +1,7 @@
 call plug#begin()
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'preservim/nerdtree'                        " File explorer
-Plug 'itchyny/lightline.vim'                     " Statusline
+" Plug 'itchyny/lightline.vim'                     " Statusline
 Plug 'jiangmiao/auto-pairs'                      " Auto pairs 
 Plug 'voldikss/vim-floaterm'                     " Floating terminal
 Plug 'tpope/vim-commentary'                      " Better comment code
@@ -10,4 +10,5 @@ Plug 'ctrlpvim/ctrlp.vim'                        " Ctrl + P in Vim
 Plug 'ryanoasis/vim-devicons'                    " Icon for file
 Plug 'junegunn/goyo.vim'                         " Focus mode
 Plug 'junegunn/limelight.vim'                    " Better focus for goyo.vim plugin
+Plug 'nvim-lualine/lualine.nvim'
 call plug#end()  
